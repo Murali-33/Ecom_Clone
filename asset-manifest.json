@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ecom_Clone/static/css/main.3ce814f4.css",
+    "main.js": "/Ecom_Clone/static/js/main.417e11a3.js",
+    "static/media/bannerImgTwo.jpg": "/Ecom_Clone/static/media/bannerImgTwo.bc1bdb910ead16c65197.jpg",
+    "static/media/bannerImgOne.jpg": "/Ecom_Clone/static/media/bannerImgOne.efb3d39101f7ef77d616.jpg",
+    "static/media/bannerImgThree.jpg": "/Ecom_Clone/static/media/bannerImgThree.c80809bb40bee5c34372.jpg",
+    "static/media/amazondarklogo.png": "/Ecom_Clone/static/media/amazondarklogo.7d2c147d132263e8cc9e.png",
+    "static/media/logo.png": "/Ecom_Clone/static/media/logo.1c9be0b254d3ff1dc9e9.png",
+    "static/media/emptyCart.png": "/Ecom_Clone/static/media/emptyCart.230e4848b62fb3cab325.png",
+    "static/media/india.webp": "/Ecom_Clone/static/media/india.a9b39f7c199c0ea6b7f4.webp",
+    "index.html": "/Ecom_Clone/index.html",
+    "main.3ce814f4.css.map": "/Ecom_Clone/static/css/main.3ce814f4.css.map",
+    "main.417e11a3.js.map": "/Ecom_Clone/static/js/main.417e11a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce814f4.css",
+    "static/js/main.417e11a3.js"
+  ]
+}
