@@ -4,9 +4,13 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SideNavContent from './SideNavContent';
 import CloseIcon from '@mui/icons-material/Close';
 import {motion} from "framer-motion";
+import { useSelector } from "react-redux";
+import {selectAllUsers} from "../FeactureSlices/amazonSlice";
 
 
 function HeaderBottom() {
+  const userInfo = useSelector(selectAllUsers)
+  // console.log(userInfo);
   const [sideNavbar,setSideNavbar] = useState(false);
   const ref = useRef();
   useEffect(()=>{
@@ -42,7 +46,10 @@ function HeaderBottom() {
             <motion.div ref={ref} initial={{x:-500,opacity:0}} animate={{x:0,opacity:1}} transition={{duraction:0.5}} className="w-[350px] h-full bg-white border border-black">
              <div className='w-full bg-amazon_light text-white py-2 flex items-center gap-4'>
              <AccountCircleIcon/>
-              <h3 className='font-titleFont text-lg font-bold tracking-wide'>Hello, Sign In</h3>
+             {
+              userInfo ? (<h3 className='font-titleFont text-lg font-bold tracking-wide'>{userInfo.userName}</h3>) 
+              :(<h3 className='font-titleFont text-lg font-bold tracking-wide'>Hello, Sign In</h3>)
+             }
              </div>
             <SideNavContent
             title="Trending"

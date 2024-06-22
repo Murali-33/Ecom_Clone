@@ -11,7 +11,7 @@ function FooterTop() {
         <button className='w-full bg-yellow-400 py-1 rounded-md cursor-pointer font-semibold hover:bg-yellow-500 active:bg-yellow-700'>Sign in</button>
         </Link> 
         <p className='text-xs mt-1'>New customer?{" "}
-        <Link to='/signin'>
+        <Link to='/register'>
         <span className='text-blue-600 m1-1 cursor-pointer'>Start here.</span>
         </Link>
         </p>
